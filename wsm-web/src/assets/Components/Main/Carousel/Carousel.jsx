@@ -33,7 +33,6 @@ const Carousel = () => {
                 </div>
             </div>
         </div>
-
     </div>
   )
 }

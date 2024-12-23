@@ -2,8 +2,8 @@ import React from 'react'
 import './Banner.css'
 
 const Banner = () => {
-    const greet = 'Welcome to'
-    const brandName = 'Waving Strings Music'
+    const greet = 'WELCOME TO'
+    const brandName = 'WAVING STRINGS MUSIC'
   return (
     <div className='banner text-center'>
         <h1>

@@ -5,33 +5,33 @@
     --wsm-shadow: #7F6951;
   }
 
-  .banner h1 {
+  .featured h1 {
     color: var(--wsm-shadow);
     font-weight: 600;
-    font-size: .9rem;
+    font-size: 1rem;
   }
 
   @media only screen and (min-width: 374px) and (max-width: 424px)
   {
-    .banner h1 {
+    .featured h1 {
         font-size: 1rem;
     }
   }
   @media only screen and (min-width: 425px) and (max-width: 767px)
   {
-    .banner h1 {
+    .featured h1 {
         font-size: 1.2rem;
     }
   }
   @media only screen and (min-width: 768px) and (max-width: 1023px)
   {
-    .banner h1 {
+    .featured h1 {
         font-size: 2rem;
     }
   }
   @media only screen and (min-width: 1024px)
   {
-    .banner h1 {
+    .featured h1 {
         font-size: 3rem;
     }
   }
