@@ -10,3 +10,15 @@
   background: var(--wsm-zeus);
   color: var(--wsm-cloud);
 }
+::-webkit-scrollbar {
+  width: 1px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: transparent; 
+}

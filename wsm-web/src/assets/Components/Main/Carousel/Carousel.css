@@ -1,0 +1,24 @@
+:root {
+    --wsm-cloud: #CECBC8;
+    --wsm-zeus: #28221E;
+    --wsm-kabul: #614E41;
+    --wsm-shadow: #7F6951;
+  }
+
+.carousel-indicators {
+    background: transparent;
+}
+
+.carousel {
+    background: var(--wsm-kabul);
+    padding: 2px;
+    cursor: pointer;
+}
+.carousel img {
+    filter: brightness(90%);
+    transition: 1s ease-out;
+}
+.carousel img:hover {
+    transition: 1s ease;
+    filter: brightness(60%);
+}
