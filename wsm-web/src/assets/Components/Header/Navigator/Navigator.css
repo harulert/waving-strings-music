@@ -1,0 +1,23 @@
+:root {
+    --wsm-cloud: #CECBC8;
+    --wsm-zeus: #28221E;
+    --wsm-kabul: #614E41;
+    --wsm-shadow: #7F6951;
+  }
+
+  nav h6 {  
+    font-weight: 700;
+    font-size: .8rem;
+    cursor: pointer;
+  }
+  nav .container-fluid ul .bx {
+    font-size: .9rem;
+    margin: 0 .5rem;
+    padding: 4px;
+    border-radius: 50%;
+    transition: .3s ease;
+  }
+  nav .container-fluid ul .bx:hover {
+    background: var(--wsm-shadow);
+    transition: .5s ease-out;
+  }
