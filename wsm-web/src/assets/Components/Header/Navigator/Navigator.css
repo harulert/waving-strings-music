@@ -21,3 +21,34 @@
     background: var(--wsm-shadow);
     transition: .5s ease-out;
   }
+
+  nav .offcanvas .offcanvas-body .col-sm-12 {
+    background: var(--wsm-shadow);
+    transition: .3s;
+  }
+  nav .offcanvas .offcanvas-body .col-sm-12:hover {
+    background: var(--wsm-kabul);
+    transition: .5s;
+  }
+  nav .offcanvas .offcanvas-body .col-sm-12:active {
+    background: var(--wsm-zeus);
+  }
+  nav .offcanvas .offcanvas-body a {
+    font-weight: 700;
+    font-size: .9rem;
+  }
+
+  nav .offcanvas .offcanvas-header {
+    background: var(--wsm-shadow);
+    cursor: pointer;
+  }
+  nav .offcanvas .offcanvas-header h6 {
+    background: var(--wsm-shadow);
+    color: var(--wsm-kabul);
+  }
+  nav .offcanvas .offcanvas-body {
+    background: var(--wsm-shadow);
+  }
+  nav .offcanvas .offcanvas-body .row {
+    background: var(--wsm-shadow);
+  }
